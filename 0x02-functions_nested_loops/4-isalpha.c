@@ -7,16 +7,13 @@
 */
 int _isalpha(int c)
 {
-int j;
-if (c >= 97 && c <= 122){
-    if (j >= 101 && j <= 132)
-    {
-        return (1);
-    }
+if ((c >= 97 && c <= 122) || (c >= 101 && c <= 132))
+{
+return (1);
+}
 else
 {
 return (0);
-}
 }
 _putchar('\n');
 }
