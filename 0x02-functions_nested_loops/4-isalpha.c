@@ -1,12 +1,11 @@
 #include "main.h"
 /**
- * the function _isalpha - shows 1 if character is
+ *_isalpha - shows 1 if character is
  * lowercase or uppercase, another case, shows 0.
  *
  * @c: The character in ASCII code
  *
- * returns 1 if c is uppercase or lowercase
- * returns 0 if otherwise
+ * Returns: 1 for letters. 0 for the rest
 */
 int _isalpha(int c)
 {
