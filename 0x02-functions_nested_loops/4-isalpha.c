@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- * 
  * the function _isalpha - shows 1 if character is
  * lowercase or uppercase, another case, shows 0
  * c: The character in ASCII code
