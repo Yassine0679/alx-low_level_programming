@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_last_digit - Prints the last digit 
+ * print_last_digit - Prints the last digit
  * of a number.
  *
  * @n: input number as an integer
@@ -18,6 +18,6 @@ return (-ld);
 else
 {
 _putchar(ld + 48);
-return(ld);
+return (ld);
 }
 }
