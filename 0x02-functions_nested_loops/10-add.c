@@ -5,7 +5,7 @@
 int add(a, b)
 {
 	int n;
-	n = add(a + b);
+	n = a + b;
 	_putchar(n);
 	return (0);
 	_putchar('\n');
