@@ -7,9 +7,9 @@
  * for multiples of 3 and 5, print
  * FizzBuzz instead of number
 */
-void FizzBuzz(int number)
+void FizzBuzz(void)
 {
-for (int i = 1; i <= number; i++)
+for (int i = 1; i <= 100; i++)
 {
 if (i % 3 == 0 && i % 5 == 0)
 {
