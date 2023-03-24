@@ -18,7 +18,7 @@ for (j = 0; j < size; j++)
 {
 if (j == i)
 {
-_putchar('\n');
+continue;;
 }
 else
 {
