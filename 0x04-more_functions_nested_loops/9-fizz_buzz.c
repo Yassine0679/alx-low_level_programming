@@ -7,7 +7,7 @@
  * for multiples of 3 and 5, print
  * FizzBuzz instead of number
 */
-void FizzBuzz(void)
+int main(void)
 {
 for (int i = 1; i <= 100; i++)
 {
