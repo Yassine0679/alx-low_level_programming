@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints the number from 1 to 100, followed 
+ * main - prints the number from 1 to 100, followed
  * by new line, but for multiples of 3 prints Fizz
  * instead of number and for the multiples of 5
  * prints Buzz
