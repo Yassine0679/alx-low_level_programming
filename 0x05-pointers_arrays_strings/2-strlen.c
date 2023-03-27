@@ -4,5 +4,11 @@
 */
 int _strlen(char *s)
 {
-return strlen(*s);
+int longi = 0;
+while (*s != '\0')
+{
+longi++;
+s++;
+}
+return (longi);
 }
