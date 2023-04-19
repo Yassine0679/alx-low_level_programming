@@ -7,5 +7,9 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-printf("Hello, my name is %s\n", name);
+if (name == NULL || f == NULL)
+		return;
+
+	f(name);
+
 }
